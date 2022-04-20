@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from 'react';
 import { InputText } from 'primereact/inputtext';
-import FundAccess from './FundAccess (1)';
-import FundHouse from './FundHouse (1)';
-import InvestorAccess from './InvestorAccess (1)';
+import FundAccess from './FundAccess';
+import FundHouse from './FundHouse';
+import InvestorAccess from './InvestorAccess';
 import ManagerSettings from './ManagerSettings'
 
-const App = () => {
+const ProfileSettings = () => {
   const [option, setOption] = useState(1);
   
   return (
@@ -136,4 +136,4 @@ const App = () => {
   )
 }
 
-export default App
+export default ProfileSettings
